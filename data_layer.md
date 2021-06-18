@@ -10,9 +10,19 @@ Add :white_check_mark: if the entity/property is relevant to the pilot.
 
 | Subject         | Property        | ACCESS | BELLS  | CHILD  | FACETS | INTERLINK | MUSICBO | MEETUPS | ORGANS | TUNES | TONALITIES | EXAMPLE
 | -------------- | --------------- | ------ | ------ | ------ | ------ | ------ | ------ |  ------ |  ------ |  ------ |  ------ |  ------ |
-| Music work     | title |  |  |  |  |  |  |  |  |  |  | :white_check_mark: |
-|  |  |  |  |  |  |  |  |   |   |   |   |  |
-|  |  |  |  |  |  |  |  |   |   |   |   |  |
+| Music work     | type |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
+| Music work     | genre |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
+| Music work     | title |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
+| Music work     | composer |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
+| Music work     | date |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
+| Music work     | source (manuscript) |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
+| Music work     | place of production |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
+| Source (manuscript)    | type |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
+| Source (manuscript)    | title |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
+| Source (manuscript)    | place of production |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
+| Source (manuscript)    | creator |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
+| Melodic pattern | parent work |  |  |  |  |  |  |   |   | :white_check_mark:  |  |  |
+| Place | name |  |  |  |  |  |  |   |   | :white_check_mark:  |   |  |
 |  |  |  |  |  |  |  |  |   |   |   |   |  |
 
 
@@ -81,6 +91,13 @@ Add an icon to flag important/secondary/less important ones.
 #### Properties
 
 ### TUNES
+
+Objective: Identify relations between traditions of different countries and/or periods.
+
+ * Trends and distribution of melodies over time.
+ * Networks of melodies across countries (based on similarity). 
+ * (wish) Evolution curve of music complexity (based on a work of C. Weiss)
+
 #### Classes
 #### Properties
 
