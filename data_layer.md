@@ -23,6 +23,13 @@ Add :white_check_mark: if the entity/property is relevant to the pilot.
 | Source (manuscript)    | creator |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
 | Melodic pattern | parent work |  |  |  |  |  |  |   |   | :white_check_mark:  |  |  |
 | Place | name |  |  |  |  |  |  |   |   | :white_check_mark:  |   |  |
+| Instrument | type |  |  |  |  |  |  |   | :white_check_mark:  |   |   |  |
+| Instrument | builder |  |  |  |  |  |  |   | :white_check_mark:  |   |   |  |
+| Instrument | builder's place |  |  |  |  |  |  |   | :white_check_mark:  |   |   |  |
+| Instrument | date |  |  |  |  |  |  |   | :white_check_mark:  |   |   |  |
+| Instrument | place of production |  |  |  |  |  |  |   | :white_check_mark:  |   |   |  |
+| Instrument | component |  |  |  |  |  |  |   | :white_check_mark:  |   |   |  |
+| Instrument | material |  |  |  |  |  |  |   | :white_check_mark:  |   |   |  |
 |  |  |  |  |  |  |  |  |   |   |   |   |  |
 
 
@@ -87,6 +94,13 @@ Add an icon to flag important/secondary/less important ones.
 #### Properties
 
 ### ORGANS
+
+Objectives: Identify relations between organs builders and countries
+
+ * Evolution of builders' provenance in NL (e.g. German builders replacing Dutch)
+ * Influence of builders / types of organs production in other countries (Indian tradition spread in NL)
+ * Changes of materials over time and space
+
 #### Classes
 #### Properties
 
