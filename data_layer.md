@@ -51,7 +51,7 @@ Add an icon to flag important/secondary/less important ones.
 
 :koala: secondary aspect, but too cute to leave behind
 
-:dog: I don't know if it is important
+:duck: I don't know if it is important
 
 ### EXAMPLE
 
