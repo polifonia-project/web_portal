@@ -116,5 +116,19 @@ Objective: Identify relations between traditions of different countries and/or p
 #### Properties
 
 ### TONALITIES
+
+see: https://github.com/Amleth/source-sherlockizer-service
+
 #### Classes
+
+| priority | Name | term | desc |
+| --- | --- | --- | --- |
+| :lion: | Music Work | `lrmoo:F1_Work` | |
+| :lion: | Score content (in symbolic notation) | `lrmoo:F2_Expression` | |
+| :lion: | Score Offset | | | 
+| :lion: | Note offset | | | 
+| :lion: | Arbitrary set of notes  | | | 
+| :lion: | Annotation | `crm:E13_Attribute_Assignment` | |
+| :lion: | Concept | `crm:E55_Concept` | |
+
 #### Properties
