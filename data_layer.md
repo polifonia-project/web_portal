@@ -125,9 +125,9 @@ see: https://github.com/Amleth/source-sherlockizer-service
 | --- | --- | --- | --- |
 | :lion: | Music Work | `lrmoo:F1_Work` | |
 | :lion: | Score content (in symbolic notation) | `lrmoo:F2_Expression` | |
-| :lion: | Score Offset | | | 
-| :lion: | Note offset | | | 
-| :lion: | Arbitrary set of notes  | | | 
+| :lion: | Score Offset | `E90_Symbolic_Object` | | 
+| :lion: | Note offset | `E90_Symbolic_Object` | | 
+| :lion: | Arbitrary set of notes  | `E90_Symbolic_Object` | | 
 | :lion: | Annotation | `crm:E13_Attribute_Assignment` | |
 | :lion: | Concept | `crm:E55_Concept` | |
 
