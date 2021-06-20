@@ -121,14 +121,14 @@ see: https://github.com/Amleth/source-sherlockizer-service
 
 #### Classes
 
-| priority | Name | term | desc |
-| --- | --- | --- | --- |
-| :lion: | Music Work | `lrmoo:F1_Work` | |
-| :lion: | Score content (in symbolic notation) | `lrmoo:F2_Expression` | |
-| :lion: | Score Offset | `crm:E90_Symbolic_Object` | | 
-| :lion: | Note offset | `crm:E90_Symbolic_Object` | | 
-| :lion: | Arbitrary set of notes  | `crm:E90_Symbolic_Object` | | 
-| :lion: | Annotation | `crm:E13_Attribute_Assignment` | |
-| :lion: | Concept | `crm:E55_Concept` | |
+| status | priority | Name | term | desc |
+| --- | --- | --- | --- | --- |
+| draft | :lion: | Music Work | `lrmoo:F1_Work` | |
+| draft | :lion: | Score content (in symbolic notation) | `lrmoo:F2_Expression` | |
+| draft | :lion: | Score Offset | `crm:E90_Symbolic_Object` | | 
+| draft | :lion: | Note offset | `crm:E90_Symbolic_Object` | | 
+| draft | :lion: | Arbitrary set of notes  | `crm:E90_Symbolic_Object` | | 
+| draft | :lion: | Annotation | `crm:E13_Attribute_Assignment` | |
+| draft | :lion: | Concept | `crm:E55_Concept` | |
 
 #### Properties
