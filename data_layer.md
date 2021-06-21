@@ -35,6 +35,8 @@ Add :white_check_mark: if the entity/property is relevant to the pilot.
 | Musical performance | performer |  |  |  |  |  | :white_check_mark: |   |   |   |   |  |
 | Musical performance | musical composition |  |  |  |  |  | :white_check_mark: |   |   |   |   |  |
 | Musical performance | mediums of performance collection |  |  |  |  |  | :white_check_mark: |   |   |   |   |  |
+| Musical composition | composer |  |  |  |  |  | :white_check_mark: |   |   |   |   |  |
+| Musical composition | mediums of performance collection |  |  |  |  |  | :white_check_mark: |   |   |   |   |  |
 | Performer | role |  |  |  |  |  | :white_check_mark: |   |   |   |   |  |
 | Performer | medium of performance |  |  |  |  |  | :white_check_mark: |   |   |   |   |  |
 |  |  |  |  |  |  |  |  |   |   |   |   |  |
@@ -93,8 +95,30 @@ Add an icon to flag important/secondary/less important ones.
 #### Properties
 
 ### MUSICBO
+
+see: [Carolina story maninpasta design](https://github.com/polifonia-project/stories/issues/14)
+
+
 #### Classes
+
+| status | priority | Name | term | desc |
+| --- | --- | --- | --- | --- |
+| draft | :lion: | Musical performance | `:TimeIndexedMusicalPerformance` | |
+| draft | :lion: | Performer | `:Performer` | |
+| draft | :lion: | Medium of performance | `:MediumOfPerformance` | |
+| draft | :lion: | Mediums of performance collection | `:MediumsOfPerformanceCollection` | |
+| draft | :lion: | Musical composition  | `:MusicalComposition` | |
+
+
 #### Properties
+
+| status | priority | Name | term | desc |
+| --- | --- | --- | --- | --- |
+| draft |:lion: | has instrument player | `:hasInstrumentPlayer` | domain Musical performance |
+| draft |:lion: | has singer | `:hasSinger` | domain Musical performance |
+| draft |:lion: | has piano player | `:hasPianoPlayer` | domain Musical performance |
+| draft |:lion: | has composer | `:hasComposer` | domain Musical composition |
+
 
 ### MEETUPS
 #### Classes
