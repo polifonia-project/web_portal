@@ -10,9 +10,9 @@ Add :white_check_mark: if the entity/property is relevant to the pilot.
 
 | Subject         | Property        | ACCESS | BELLS  | CHILD  | FACETS | INTERLINK | MUSICBO | MEETUPS | ORGANS | TUNES | TONALITIES | EXAMPLE
 | -------------- | --------------- | ------ | ------ | ------ | ------ | ------ | ------ |  ------ |  ------ |  ------ |  ------ |  ------ |
-| Music work     | type |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
+| Music work     | type |  |  |  |  |  |  |  |  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Music work     | genre |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
-| Music work     | title |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
+| Music work     | title |  |  |  |  |  |  |  |  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Music work     | composer |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
 | Music work     | date |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
 | Music work     | source (manuscript) |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
@@ -21,7 +21,7 @@ Add :white_check_mark: if the entity/property is relevant to the pilot.
 | Source (manuscript)    | title |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
 | Source (manuscript)    | place of production |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
 | Source (manuscript)    | creator |  |  |  |  |  |  |  |  | :white_check_mark: |  | :white_check_mark: |
-| Melodic pattern | parent work |  |  |  |  |  |  |   |   | :white_check_mark:  |  |  |
+| Melodic pattern | parent work |  |  |  |  |  |  |   |   | :white_check_mark:  | :white_check_mark: |  |
 | Place | name |  |  |  |  |  |  |   |   | :white_check_mark:  |   |  |
 | Instrument | type |  |  |  |  |  |  |   | :white_check_mark:  |   |   |  |
 | Instrument | builder |  |  |  |  |  |  |   | :white_check_mark:  |   |   |  |
