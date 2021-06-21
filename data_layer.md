@@ -30,6 +30,13 @@ Add :white_check_mark: if the entity/property is relevant to the pilot.
 | Instrument | place of production |  |  |  |  |  |  |   | :white_check_mark:  |   |   |  |
 | Instrument | component |  |  |  |  |  |  |   | :white_check_mark:  |   |   |  |
 | Instrument | material |  |  |  |  |  |  |   | :white_check_mark:  |   |   |  |
+| Musical performance | time |  |  |  |  |  | :white_check_mark: |   |   |   |   |  |
+| Musical performance | place |  |  |  |  |  | :white_check_mark: |   |   |   |   |  |
+| Musical performance | performer |  |  |  |  |  | :white_check_mark: |   |   |   |   |  |
+| Musical performance | musical composition |  |  |  |  |  | :white_check_mark: |   |   |   |   |  |
+| Musical performance | mediums of performance collection |  |  |  |  |  | :white_check_mark: |   |   |   |   |  |
+| Performer | role |  |  |  |  |  | :white_check_mark: |   |   |   |   |  |
+| Performer | medium of performance |  |  |  |  |  | :white_check_mark: |   |   |   |   |  |
 |  |  |  |  |  |  |  |  |   |   |   |   |  |
 
 
