@@ -160,6 +160,6 @@ see: https://github.com/Amleth/source-sherlockizer-service
 | draft | :lion: | Note offset | `crm:E90_Symbolic_Object` | | 
 | draft | :lion: | Arbitrary set of notes  | `crm:E90_Symbolic_Object` | | 
 | draft | :lion: | Annotation | `crm:E13_Attribute_Assignment` | |
-| draft | :lion: | Concept | `crm:E55_Concept` | |
+| draft | :lion: | Concept | `crm:E55_Type` | |
 
 #### Properties
