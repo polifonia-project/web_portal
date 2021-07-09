@@ -22,7 +22,8 @@ Add :white_check_mark: if the entity/property is relevant to the pilot.
 | Source (manuscript)    | title |  |  |  |  |  |  |  |  | :white_check_mark: | :white_check_mark: | 
 | Source (manuscript)    | place of production |  |  |  |  |  |  |  |  | :white_check_mark: |  | 
 | Source (manuscript)    | creator |  |  |  |  |  |  |  |  | :white_check_mark: | :white_check_mark: | 
-| Melodic pattern | parent work |  | :white_check_mark: |  |  |  |  |   |   | :white_check_mark:  | :white_check_mark: |  
+| Music feature | parent work | :white_check_mark: | :white_check_mark: |  |  |  |  |   |   | :white_check_mark:  | :white_check_mark: | 
+| Annotation | related feature | :white_check_mark: |  |  |  |  |  |   |   |  | :white_check_mark: | 
 | Place | name |  |  |  |  |  |  |   |   | :white_check_mark:  |   |  
 | Instrument | type | :white_check_mark: | :white_check_mark: |  |  |  |  |   | :white_check_mark:  |   |   |  
 | Instrument | builder |  | :white_check_mark: |  |  |  |  |   | :white_check_mark:  |   |   |  
@@ -41,7 +42,7 @@ Add :white_check_mark: if the entity/property is relevant to the pilot.
 |  |  |  |  |  |  |  |  |   |   |   |   |  |
 
 
-
+Music feature: to be expanded/updated in later stage
 
 
 ## Mapping
