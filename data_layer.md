@@ -11,7 +11,7 @@ Add :white_check_mark: if the entity/property is relevant to the pilot.
 | Subject         | Property        | ACCESS | BELLS  | CHILD  | FACETS | INTERLINK | MUSICBO | MEETUPS | ORGANS | TUNES | TONALITIES | 
 | -------------- | --------------- | ------ | ------ | ------ | ------ | ------ | ------ |  ------ |  ------ |  ------ |  ------ |  
 | Music work     | type |  |  |:white_check_mark:  |  |:white_check_mark:  |  | :white_check_mark: |  | :white_check_mark: | :white_check_mark: | 
-| Music work     | genre | :white_check_mark: |  |:white_check_mark:  |  | :white_check_mark: |  | :white_check_mark: |  | :white_check_mark: |  | 
+| Music work     | genre | :white_check_mark: |  |:white_check_mark:  |  | :white_check_mark: |  | :white_check_mark: |  | :white_check_mark: | :white_check_mark: | 
 | Music work     | title |  |  |:white_check_mark:  |  |:white_check_mark: | :white_check_mark: | :white_check_mark: |  | :white_check_mark: | :white_check_mark: | 
 | Music work     | composer |  |  |:white_check_mark:  |  |:white_check_mark:  |  | :white_check_mark: |  | :white_check_mark: | :white_check_mark: | 
 | Music work     | date |  |  | :white_check_mark: |  | :white_check_mark: |  | :white_check_mark: |  | :white_check_mark: | :white_check_mark: | 
