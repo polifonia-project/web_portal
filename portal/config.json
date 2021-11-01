@@ -1,0 +1,17 @@
+{
+ "app_port": "8080",
+ "app_host": "0.0.0.0",
+ "index_host": "localhost",
+ "index_channel": 1491,
+ "index_pw": "SecretPassword",
+ "data_sources": {
+  "musow": {
+   "iri_base": "https://w3id.org/musow/",
+   "query_method": "sparql_endpoint",
+   "github": "",
+   "sparql_endpoint": "https://projects.dharc.unibo.it/musow/sparql",
+   "rest_api": "http://127.0.0.1:8081/musow/v1",
+   "status": "ingested"
+  }
+ }
+}

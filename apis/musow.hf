@@ -1,0 +1,41 @@
+#url /musow/v1
+#type api
+#base http://localhost:8081
+#method get
+#title musoW REST API
+#description A RAMOSE API implementation for musoW
+#version 0.0.1
+#license This document is licensed with a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/legalcode), while the REST API itself has been created using [RAMOSE](https://github.com/opencitations/ramose), the *Restful API Manager Over SPARQL Endpoints* created by [Silvio Peroni](https://orcid.org/0000-0003-0530-4305), which is licensed with an [ISC license](https://opensource.org/licenses/ISC). All the data returned by this API are made freely available under a [Creative Commons public domain dedication (CC0)](https://creativecommons.org/publicdomain/zero/1.0/).
+#contacts [marilena.daquino2@unibo.it](mailto:marilena.daquino2@unibo.it)
+#endpoint https://projects.dharc.unibo.it/musow/sparql
+#addon polifonia_addon
+
+#url /metadata/{res_uris}
+#type operation
+#res_uris str(\"?<(.+)>\"?)
+#preprocess split_uris(res_uris)
+#method get
+#description This operation retrieves basic metadata for all a URI in the dataset.
+The URI **MUST** be enclosed in "<>"
+
+It is possible to specify one or more URI as input of this operation.
+In this case, the URI should be separated with a double underscore ("\_\_") – e.g. "<http://w3id.org/musow/1635268063-602893>\_\_<http://w3id.org/musow/1635268063-612834>...".
+The fields returned by this operation are:
+
+* *uri:* the uri of the resource;
+* *label:* the rdfs:label of the resource;
+#call /metadata/&lt;https://w3id.org/musow/1635268063-604429&gt;
+#field_type str(label)
+#output_json [
+    {
+        "uri":"http://example.org/1",
+        "label": "Verovio"
+    },
+    {
+        "uri":"http://example.org/2",
+        "label": "MIDI Linked Data"
+    }
+]
+#sparql SELECT ?uri (SAMPLE(?l)AS ?label) WHERE {
+  VALUES ?uri { [[res_uris]] }
+  ?uri rdfs:label ?l . } GROUP BY ?uri

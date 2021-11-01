@@ -1,0 +1,571 @@
+[2021-11-01 14:28:12,377] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 14:28:12,379] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 14:28:12,779] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 14:28:12,786] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 14:30:16,698] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 14:30:16,700] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 14:30:17,093] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 14:30:17,100] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 14:49:08,903] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 14:49:08,905] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 14:49:09,276] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 14:49:09,281] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 14:50:42,453] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-11-01 14:50:42,455] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 14:50:42,857] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 14:50:42,865] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 14:52:02,430] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-11-01 14:52:02,433] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 14:52:02,835] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 14:52:02,841] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 14:52:45,866] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-11-01 14:52:45,868] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 14:52:46,272] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 14:52:46,282] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 14:54:22,558] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-11-01 14:54:22,560] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 14:54:22,947] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 14:54:22,954] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 14:54:29,179] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-11-01 14:54:29,180] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 14:54:29,601] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 14:54:29,607] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 14:57:04,953] [Thread-3    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 14:57:04] "GET / HTTP/1.1" 200 -
+[2021-11-01 14:57:04,954] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 14:57:04] "GET / HTTP/1.1" 200 -
+[2021-11-01 14:57:49,347] [Thread-4    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 14:57:49] "GET / HTTP/1.1" 200 -
+[2021-11-01 14:57:49,588] [Thread-5    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 14:57:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 14:58:10,010] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-11-01 14:58:10,011] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 14:58:10,454] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 14:58:10,463] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 14:59:15,945] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-11-01 14:59:15,947] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 14:59:16,361] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 14:59:16,370] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 15:00:09,192] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-11-01 15:00:09,194] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 15:00:09,623] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 15:00:09,632] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 15:00:53,596] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-11-01 15:00:53,597] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 15:00:54,007] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 15:00:54,015] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 15:01:54,966] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:01:54,968] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 15:01:55,372] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 15:01:55,381] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 15:02:35,628] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:02:35,630] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 15:02:36,073] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 15:02:36,094] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 15:03:19,596] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:03:19,598] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 15:03:19,981] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 15:03:19,991] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 15:04:24,750] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:04:24,752] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 15:04:25,169] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 15:04:25,177] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 15:05:17,877] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:05:17,879] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 15:05:18,262] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 15:05:18,271] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 15:06:17,756] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:06:17,757] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 15:06:18,139] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 15:06:18,148] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 15:08:12,455] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:08:12,457] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 15:08:12,841] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 15:08:12,851] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 15:08:26,123] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:08:29,460] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:08:29] "GET / HTTP/1.1" 200 -
+[2021-11-01 15:08:29,698] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:08:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 15:08:32,668] [Thread-3    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:08:32] "GET /api/v1 HTTP/1.1" 200 -
+[2021-11-01 15:08:32,737] [Thread-4    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:08:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 15:08:49,660] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:08:56,828] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:08:56] "[33mGET /api/v1 HTTP/1.1[0m" 404 -
+[2021-11-01 15:08:57,625] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:08:57] "GET / HTTP/1.1" 200 -
+[2021-11-01 15:09:03,058] [Thread-3    ] [ERROR]  Exception on /musowapi/v1 [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "ramose.py", line 1560, in doc
+    status, res = dh.get_documentation(css_path, api_url)
+  File "ramose.py", line 729, in get_documentation
+    </html>""" % (self.__title(conf), self.__css(), self.__css_path(css_path), self.__sidebar(conf), self.__header(conf), self.__operations(conf), self.__footer())
+  File "ramose.py", line 239, in __operations
+    conf["website"] + conf["base_url"] + op["call"], op["call"], op["output_json"])
+KeyError: 'call'
+[2021-11-01 15:09:03,060] [Thread-3    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:09:03] "[35m[1mGET /musowapi/v1 HTTP/1.1[0m" 500 -
+[2021-11-01 15:09:03,086] [Thread-4    ] [ERROR]  Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "ramose.py", line 1556, in doc
+    res, status = dh.get_index(css_path), 404
+  File "ramose.py", line 750, in get_index
+    """ % (self.__css(), self.__css_path(css_path), self.__parse_logger_ramose(), self.__footer())
+  File "ramose.py", line 688, in __parse_logger_ramose
+    api_logs_list = ''.join(["<p>"+self.clean_log(l,api_url) +"</p>" for l in clean_list if self.clean_log(l,api_url) !=''])
+  File "ramose.py", line 688, in <listcomp>
+    api_logs_list = ''.join(["<p>"+self.clean_log(l,api_url) +"</p>" for l in clean_list if self.clean_log(l,api_url) !=''])
+  File "ramose.py", line 760, in clean_log
+    s = l.split("- - ",1)[1]
+IndexError: list index out of range
+[2021-11-01 15:09:03,086] [Thread-4    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:09:03] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+[2021-11-01 15:11:12,493] [Thread-5    ] [ERROR]  Exception on /musowapi/v1 [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "ramose.py", line 1556, in doc
+    res, status = dh.get_index(css_path), 404
+  File "ramose.py", line 750, in get_index
+    """ % (self.__css(), self.__css_path(css_path), self.__parse_logger_ramose(), self.__footer())
+  File "ramose.py", line 688, in __parse_logger_ramose
+    api_logs_list = ''.join(["<p>"+self.clean_log(l,api_url) +"</p>" for l in clean_list if self.clean_log(l,api_url) !=''])
+  File "ramose.py", line 688, in <listcomp>
+    api_logs_list = ''.join(["<p>"+self.clean_log(l,api_url) +"</p>" for l in clean_list if self.clean_log(l,api_url) !=''])
+  File "ramose.py", line 760, in clean_log
+    s = l.split("- - ",1)[1]
+IndexError: list index out of range
+[2021-11-01 15:11:12,494] [Thread-5    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:11:12] "[35m[1mGET /musowapi/v1 HTTP/1.1[0m" 500 -
+[2021-11-01 15:13:55,509] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:13:55,510] [MainThread  ] [INFO ]   * Restarting with stat
+[2021-11-01 15:13:55,904] [MainThread  ] [WARNI]   * Debugger is active!
+[2021-11-01 15:13:55,911] [MainThread  ] [INFO ]   * Debugger PIN: 552-438-310
+[2021-11-01 15:14:16,201] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:14:20,171] [Thread-1    ] [ERROR]  Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "ramose.py", line 1549, in home
+    index = dh.get_index(css_path)
+  File "ramose.py", line 750, in get_index
+    """ % (self.__css(), self.__css_path(css_path), self.__parse_logger_ramose(), self.__footer())
+  File "ramose.py", line 688, in __parse_logger_ramose
+    api_logs_list = ''.join(["<p>"+self.clean_log(l,api_url) +"</p>" for l in clean_list if self.clean_log(l,api_url) !=''])
+  File "ramose.py", line 688, in <listcomp>
+    api_logs_list = ''.join(["<p>"+self.clean_log(l,api_url) +"</p>" for l in clean_list if self.clean_log(l,api_url) !=''])
+  File "ramose.py", line 760, in clean_log
+    s = l.split("- - ",1)[1]
+IndexError: list index out of range
+[2021-11-01 15:14:20,174] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:14:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2021-11-01 15:16:52,561] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:16:58,024] [Thread-1    ] [ERROR]  Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "ramose.py", line 1551, in home
+    index = dh.get_index(css_path)
+  File "ramose.py", line 750, in get_index
+    """ % (self.__css(), self.__css_path(css_path), self.__parse_logger_ramose(), self.__footer())
+  File "ramose.py", line 688, in __parse_logger_ramose
+    api_logs_list = ''.join(["<p>"+self.clean_log(l,api_url) +"</p>" for l in clean_list if self.clean_log(l,api_url) !=''])
+  File "ramose.py", line 688, in <listcomp>
+    api_logs_list = ''.join(["<p>"+self.clean_log(l,api_url) +"</p>" for l in clean_list if self.clean_log(l,api_url) !=''])
+  File "ramose.py", line 762, in clean_log
+    s = l.split("- - ",1)[1]
+IndexError: list index out of range
+[2021-11-01 15:16:58,026] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:16:58] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2021-11-01 15:17:12,473] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:17:16,171] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:17:16] "GET / HTTP/1.1" 200 -
+[2021-11-01 15:17:21,704] [Thread-2    ] [ERROR]  Exception on /musowapi/v1 [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "ramose.py", line 1562, in doc
+    status, res = dh.get_documentation(css_path, api_url)
+  File "ramose.py", line 729, in get_documentation
+    </html>""" % (self.__title(conf), self.__css(), self.__css_path(css_path), self.__sidebar(conf), self.__header(conf), self.__operations(conf), self.__footer())
+  File "ramose.py", line 239, in __operations
+    conf["website"] + conf["base_url"] + op["call"], op["call"], op["output_json"])
+KeyError: 'call'
+[2021-11-01 15:17:21,707] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:17:21] "[35m[1mGET /musowapi/v1 HTTP/1.1[0m" 500 -
+[2021-11-01 15:18:40,952] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:18:43,559] [Thread-1    ] [ERROR]  Exception on /musowapi/v1 [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "ramose.py", line 1559, in doc
+    status, res = dh.get_documentation(css_path, api_url)
+  File "ramose.py", line 729, in get_documentation
+    </html>""" % (self.__title(conf), self.__css(), self.__css_path(css_path), self.__sidebar(conf), self.__header(conf), self.__operations(conf), self.__footer())
+  File "ramose.py", line 239, in __operations
+    conf["website"] + conf["base_url"] + op["call"], op["call"], op["output_json"])
+KeyError: 'call'
+[2021-11-01 15:18:43,563] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:18:43] "[35m[1mGET /musowapi/v1 HTTP/1.1[0m" 500 -
+[2021-11-01 15:19:47,033] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:19:53,036] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:19:53] "GET / HTTP/1.1" 200 -
+[2021-11-01 15:19:56,690] [Thread-2    ] [ERROR]  Exception on /musowapi/v1 [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "ramose.py", line 1559, in doc
+    status, res = dh.get_documentation(css_path, api_url)
+  File "ramose.py", line 729, in get_documentation
+    </html>""" % (self.__title(conf), self.__css(), self.__css_path(css_path), self.__sidebar(conf), self.__header(conf), self.__operations(conf), self.__footer())
+  File "ramose.py", line 239, in __operations
+    conf["website"] + conf["base_url"] + op["call"], op["call"], op["output_json"])
+KeyError: 'call'
+[2021-11-01 15:19:56,692] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:19:56] "[35m[1mGET /musowapi/v1 HTTP/1.1[0m" 500 -
+[2021-11-01 15:20:54,596] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:20:58,059] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:20:58] "[33mGET /musowapi/v1 HTTP/1.1[0m" 404 -
+[2021-11-01 15:21:02,426] [Thread-2    ] [ERROR]  Exception on /musow/v1 [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "ramose.py", line 1560, in doc
+    status, res = dh.get_documentation(css_path, api_url)
+  File "ramose.py", line 730, in get_documentation
+    </html>""" % (self.__title(conf), self.__css(), self.__css_path(css_path), self.__sidebar(conf), self.__header(conf), self.__operations(conf), self.__footer())
+  File "ramose.py", line 240, in __operations
+    conf["website"] + conf["base_url"] + op["call"], op["call"], op["output_json"])
+KeyError: 'call'
+[2021-11-01 15:21:02,428] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:21:02] "[35m[1mGET /musow/v1 HTTP/1.1[0m" 500 -
+[2021-11-01 15:21:02,453] [Thread-3    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:21:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 15:26:59,468] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:27:01,978] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:27:01] "GET /musow/v1 HTTP/1.1" 200 -
+[2021-11-01 15:29:00,344] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:29:00] "GET /musow/v1 HTTP/1.1" 200 -
+[2021-11-01 15:29:04,846] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:29:07,238] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:29:07] "GET /musow/v1 HTTP/1.1" 200 -
+[2021-11-01 15:29:50,945] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:29:54,816] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:29:54] "GET /musow/v1 HTTP/1.1" 200 -
+[2021-11-01 15:30:00,934] [Thread-2    ] [ERROR]  Exception on /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "ramose.py", line 1568, in doc
+    op = am.get_op(cur_call+'?'+unquote(request.query_string.decode('utf8')))
+  File "ramose.py", line 1483, in get_op
+    conf, op = self.best_match(op_url)
+  File "ramose.py", line 1468, in best_match
+    if match("^%s$" % pat, cur_u):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/re.py", line 189, in match
+    return _compile(pattern, flags).match(string)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/re.py", line 302, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/sre_parse.py", line 948, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/sre_parse.py", line 836, in _parse
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 20
+[2021-11-01 15:30:00,938] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:30:00] "[35m[1mGET /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 HTTP/1.1[0m" 500 -
+[2021-11-01 15:30:00,969] [Thread-3    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:30:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 15:30:00,973] [Thread-4    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:30:00] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+[2021-11-01 15:30:00,982] [Thread-5    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:30:00] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+[2021-11-01 15:30:18,349] [Thread-6    ] [ERROR]  Exception on /musow/v1/metadata/"https://w3id.org/musow/1635268063-604429" [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "ramose.py", line 1568, in doc
+    op = am.get_op(cur_call+'?'+unquote(request.query_string.decode('utf8')))
+  File "ramose.py", line 1483, in get_op
+    conf, op = self.best_match(op_url)
+  File "ramose.py", line 1468, in best_match
+    if match("^%s$" % pat, cur_u):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/re.py", line 189, in match
+    return _compile(pattern, flags).match(string)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/re.py", line 302, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/sre_parse.py", line 948, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/sre_parse.py", line 836, in _parse
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 20
+[2021-11-01 15:30:18,350] [Thread-6    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:30:18] "[35m[1mGET /musow/v1/metadata/%22https://w3id.org/musow/1635268063-604429%22 HTTP/1.1[0m" 500 -
+[2021-11-01 15:30:18,367] [Thread-7    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:30:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 15:31:41,869] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:31:44,502] [Thread-1    ] [ERROR]  Exception on /musow/v1/metadata/"https://w3id.org/musow/1635268063-604429" [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "ramose.py", line 1569, in doc
+    op = am.get_op(cur_call+'?'+unquote(request.query_string.decode('utf8')))
+  File "ramose.py", line 1484, in get_op
+    conf, op = self.best_match(op_url)
+  File "ramose.py", line 1469, in best_match
+    if match("^%s$" % pat, cur_u):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/re.py", line 189, in match
+    return _compile(pattern, flags).match(string)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/re.py", line 302, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/sre_parse.py", line 948, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/sre_parse.py", line 836, in _parse
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 20
+[2021-11-01 15:31:44,508] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:31:44] "[35m[1mGET /musow/v1/metadata/%22https://w3id.org/musow/1635268063-604429%22 HTTP/1.1[0m" 500 -
+[2021-11-01 15:33:12,004] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:33:14,547] [Thread-1    ] [ERROR]  Exception on /musow/v1/metadata/"https://w3id.org/musow/1635268063-604429" [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "ramose.py", line 1571, in doc
+    op = am.get_op(cur_call+'?'+unquote(request.query_string.decode('utf8')))
+  File "ramose.py", line 1486, in get_op
+    conf, op = self.best_match(op_url)
+  File "ramose.py", line 1471, in best_match
+    if match("^%s$" % pat, cur_u):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/re.py", line 189, in match
+    return _compile(pattern, flags).match(string)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/re.py", line 302, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/sre_parse.py", line 948, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/sre_parse.py", line 836, in _parse
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 20
+[2021-11-01 15:33:14,549] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:33:14] "[35m[1mGET /musow/v1/metadata/%22https://w3id.org/musow/1635268063-604429%22 HTTP/1.1[0m" 500 -
+[2021-11-01 15:34:47,296] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:34:50,353] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:34:50] "[31m[1mGET /musow/v1/metadata/%22https://w3id.org/musow/1635268063-604429%22 HTTP/1.1[0m" 400 -
+[2021-11-01 15:55:48,172] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:55:55,775] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:55:55] "[31m[1mGET /musow/v1/metadata/%22https://w3id.org/musow/1635268063-604429%22 HTTP/1.1[0m" 400 -
+[2021-11-01 15:57:02,122] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:57:06,527] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:57:06] "[31m[1mGET /musow/v1/metadata/%22https://w3id.org/musow/1635268063-604429%22 HTTP/1.1[0m" 400 -
+[2021-11-01 15:57:06,544] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:57:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 15:57:20,531] [Thread-3    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:57:20] "GET /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 HTTP/1.1" 200 -
+[2021-11-01 15:57:20,548] [Thread-4    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:57:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 15:57:20,574] [Thread-5    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:57:20] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+[2021-11-01 15:57:20,579] [Thread-6    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:57:20] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+[2021-11-01 15:58:24,718] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:58:30,139] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:58:30] "GET /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 HTTP/1.1" 200 -
+[2021-11-01 15:58:30,151] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:58:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 15:58:51,788] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 15:58:55,093] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:58:55] "GET /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 HTTP/1.1" 200 -
+[2021-11-01 15:58:55,108] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 15:58:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:01:38,534] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:01:41,733] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:01:41] "GET /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 HTTP/1.1" 200 -
+[2021-11-01 16:01:41,746] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:01:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:02:40,297] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:02:42,964] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:02:42] "GET /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 HTTP/1.1" 200 -
+[2021-11-01 16:02:43,003] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:02:43] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+[2021-11-01 16:02:43,008] [Thread-3    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:02:43] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+[2021-11-01 16:02:45,164] [Thread-4    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:02:45] "GET /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 HTTP/1.1" 200 -
+[2021-11-01 16:02:45,183] [Thread-5    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:02:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:03:10,965] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:03:16,546] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:03:16] "GET /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 HTTP/1.1" 200 -
+[2021-11-01 16:03:16,562] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:03:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:04:47,376] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:04:52,089] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:04:52] "GET /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 HTTP/1.1" 200 -
+[2021-11-01 16:04:52,152] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:04:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:05:16,454] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:05:20,631] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:05:20] "GET /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 HTTP/1.1" 200 -
+[2021-11-01 16:05:20,646] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:05:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:05:36,113] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:05:39,003] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:05:39] "GET /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 HTTP/1.1" 200 -
+[2021-11-01 16:05:39,022] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:05:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:05:48,166] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:05:51,795] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:05:51] "GET /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 HTTP/1.1" 200 -
+[2021-11-01 16:05:51,806] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:05:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:06:36,719] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:06:43,543] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:06:43] "GET /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 HTTP/1.1" 200 -
+[2021-11-01 16:06:43,559] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:06:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:07:10,458] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:07:13,011] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:07:13] "GET /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 HTTP/1.1" 200 -
+[2021-11-01 16:07:13,027] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:07:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:07:22,659] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:07:26,130] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:07:26] "GET /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 HTTP/1.1" 200 -
+[2021-11-01 16:07:26,144] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:07:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:17:29,221] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:17:31,713] [Thread-1    ] [ERROR]  Exception on /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "ramose.py", line 1582, in doc
+    op = am.get_op(cur_call+'?'+unquote(request.query_string.decode('utf8')))
+  File "ramose.py", line 1499, in get_op
+    return Operation(op_complete_url,
+  File "ramose.py", line 886, in __init__
+    self.dt = DataType()
+  File "ramose.py", line 785, in __init__
+    "uri": DataType.anyURI
+AttributeError: type object 'DataType' has no attribute 'anyURI'
+[2021-11-01 16:17:31,716] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:17:31] "[35m[1mGET /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 HTTP/1.1[0m" 500 -
+[2021-11-01 16:17:31,760] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:17:31] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+[2021-11-01 16:17:31,765] [Thread-3    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:17:31] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+[2021-11-01 16:17:42,915] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:17:47,551] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:17:47] "GET /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 HTTP/1.1" 200 -
+[2021-11-01 16:23:19,764] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:23:26,680] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:23:26] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 16:23:26,728] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:23:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:25:23,780] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:25:25,872] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:25:25] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 16:26:49,630] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:26:52,885] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:26:52] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 16:26:52,899] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:26:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:27:18,453] [Thread-3    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:27:18] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E__%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 16:27:18,472] [Thread-4    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:27:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:27:18,497] [Thread-5    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:27:18] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+[2021-11-01 16:27:18,503] [Thread-6    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:27:18] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+[2021-11-01 16:28:31,243] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:28:35,376] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:28:35] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E__%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 16:28:35,398] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:28:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:30:21,377] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:30:24,017] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:30:24] "[33mGET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E__%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1[0m" 404 -
+[2021-11-01 16:30:24,031] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:30:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:30:39,190] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:30:42,090] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:30:42] "[33mGET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E__%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1[0m" 404 -
+[2021-11-01 16:30:42,112] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:30:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:31:15,766] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:31:19,390] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:31:19] "[33mGET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E__%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1[0m" 404 -
+[2021-11-01 16:31:19,411] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:31:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:31:28,374] [Thread-3    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:31:28] "[33mGET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1[0m" 404 -
+[2021-11-01 16:31:28,393] [Thread-4    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:31:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:31:28,418] [Thread-5    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:31:28] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+[2021-11-01 16:31:28,423] [Thread-6    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:31:28] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+[2021-11-01 16:31:34,027] [Thread-7    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:31:34] "GET /musow/v1/metadata/%22%3Chttps://w3id.org/musow/1635268063-604429%3E%22 HTTP/1.1" 200 -
+[2021-11-01 16:31:34,043] [Thread-8    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:31:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:32:22,486] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:32:29,402] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:32:29] "[33mGET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1[0m" 404 -
+[2021-11-01 16:33:08,962] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:33:12,943] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:33:12] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 16:33:12,958] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:33:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:33:30,367] [Thread-3    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:33:30] "GET / HTTP/1.1" 200 -
+[2021-11-01 16:33:30,560] [Thread-4    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:33:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:34:25,030] [Thread-5    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:34:25] "GET /musow/v1 HTTP/1.1" 200 -
+[2021-11-01 16:34:25,081] [Thread-6    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:34:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 16:34:33,705] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:34:35,694] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:34:35] "GET /musow/v1 HTTP/1.1" 200 -
+[2021-11-01 16:36:02,775] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:36:07,895] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:36:07] "GET /musow/v1 HTTP/1.1" 200 -
+[2021-11-01 16:37:32,471] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:37:35,528] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:37:35] "GET /musow/v1 HTTP/1.1" 200 -
+[2021-11-01 16:38:17,788] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 16:38:22,272] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:38:22] "GET /musow/v1 HTTP/1.1" 200 -
+[2021-11-01 16:38:26,313] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:38:26] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 16:38:26,344] [Thread-3    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:38:26] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+[2021-11-01 16:38:26,356] [Thread-4    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:38:26] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+[2021-11-01 16:39:21,153] [Thread-5    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:39:21] "GET /musow/v1 HTTP/1.1" 200 -
+[2021-11-01 16:39:24,554] [Thread-6    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:39:24] "GET /musow/v1 HTTP/1.1" 200 -
+[2021-11-01 16:39:24,756] [Thread-7    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 16:39:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 17:09:27,585] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 17:10:50,072] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 17:11:25,133] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:11:25] "[33mGET /musow/v1/metadata/%5B__%22__h__t__t__p__s__:__/__/__w__3__i__d__.__o__r__g__/__m__u__s__o__w__/__1__6__3__5__2__6__8__0__6__3__-__6__0__4__4__2__9__%22__%5D HTTP/1.1[0m" 404 -
+[2021-11-01 17:11:39,951] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:11:39] "[33mGET /musow/v1/metadata/%5B__%22__h__t__t__p__s__:__/__/__w__3__i__d__.__o__r__g__/__m__u__s__o__w__/__1__6__3__5__2__6__8__0__6__3__-__6__0__4__4__2__9__%22__%5D HTTP/1.1[0m" 404 -
+[2021-11-01 17:12:48,511] [Thread-3    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:12:48] "[33mGET /musow/v1/metadata/https://w3id.org/musow/1635268063-604429 HTTP/1.1[0m" 404 -
+[2021-11-01 17:13:36,246] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-01 17:13:45,018] [Thread-1    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:13:45] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 17:14:50,094] [Thread-2    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:14:50] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 17:15:13,855] [Thread-3    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:15:13] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 17:16:44,220] [Thread-4    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:16:44] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 17:17:07,429] [Thread-5    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:17:07] "GET / HTTP/1.1" 200 -
+[2021-11-01 17:17:07,637] [Thread-6    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:17:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 17:17:10,466] [Thread-7    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:17:10] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 17:17:10,486] [Thread-8    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:17:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-11-01 17:17:34,361] [Thread-9    ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:17:34] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 17:25:38,724] [Thread-10   ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:25:38] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 17:26:48,468] [Thread-11   ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:26:48] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 17:32:43,875] [Thread-12   ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:32:43] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 17:33:42,755] [Thread-13   ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:33:42] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 17:34:12,201] [Thread-14   ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:34:12] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 17:34:49,900] [Thread-15   ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:34:49] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 17:35:50,826] [Thread-16   ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:35:50] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
+[2021-11-01 17:35:56,147] [Thread-17   ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:35:56] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-603507%3E__%3Chttps://w3id.org/musow/1635268063-601393%3E__%3Chttps://w3id.org/musow/1635268063-595624%3E__%3Chttps://w3id.org/musow/8bde822535da29dabce057e2bdf99d09%3E__%3Chttps://w3id.org/musow/46f18c989bcd3e6eaa843fe3225ff380%3E__%3Chttps://w3id.org/musow/vocab/midi-collection%3E__%3Chttps://w3id.org/musow/vocab/midi%3E HTTP/1.1" 200 -
+[2021-11-01 17:36:47,321] [Thread-18   ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:36:47] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-601393%3E__%3Chttps://w3id.org/musow/1635268063-595624%3E__%3Chttps://w3id.org/musow/8bde822535da29dabce057e2bdf99d09%3E HTTP/1.1" 200 -
+[2021-11-01 17:36:55,984] [Thread-19   ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:36:55] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-601393%3E__%3Chttps://w3id.org/musow/1635268063-595624%3E HTTP/1.1" 200 -
+[2021-11-01 17:36:59,533] [Thread-20   ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:36:59] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-601393%3E HTTP/1.1" 200 -
+[2021-11-01 17:37:25,702] [Thread-21   ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:37:25] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-603507%3E__%3Chttps://w3id.org/musow/1635268063-601393%3E__%3Chttps://w3id.org/musow/1635268063-595624%3E__%3Chttps://w3id.org/musow/8bde822535da29dabce057e2bdf99d09%3E__%3Chttps://w3id.org/musow/46f18c989bcd3e6eaa843fe3225ff380%3E__%3Chttps://w3id.org/musow/vocab/midi-collection%3E__%3Chttps://w3id.org/musow/vocab/midi%3E HTTP/1.1" 200 -
+[2021-11-01 17:37:29,131] [Thread-22   ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:37:29] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-601393%3E__%3Chttps://w3id.org/musow/1635268063-595624%3E__%3Chttps://w3id.org/musow/8bde822535da29dabce057e2bdf99d09%3E HTTP/1.1" 200 -
+[2021-11-01 17:37:35,468] [Thread-23   ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:37:35] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-601393%3E__%3Chttps://w3id.org/musow/1635268063-595624%3E HTTP/1.1" 200 -
+[2021-11-01 17:38:57,119] [Thread-24   ] [INFO ]  127.0.0.1 - - [01/Nov/2021 17:38:57] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-601393%3E__%3Chttps://w3id.org/musow/1635268063-595624%3E__%3Chttps://w3id.org/musow/8bde822535da29dabce057e2bdf99d09%3E HTTP/1.1" 200 -
