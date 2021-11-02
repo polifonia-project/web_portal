@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block body %}
+  <div class="__lucinda__ container-fluid" data-content="header details metrics"></div>
+  <!-- LUCINDA -->
+  <script type="text/javascript" src="{{ url_for('static', filename='js/lucinda-conf.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/lucinda.js') }}"></script>
+
+  <script>
+      var resource_iri = null;
+      var myRegexp = /resource\/(.*)/g;
+      var groups = myRegexp.exec(String(window.location.href));
+      if (groups.length > 1) {resource_iri = groups[1];}
+      browser.do_sparql_query(resource_iri);
+    </script>
+{% endblock %}

@@ -50,5 +50,9 @@ def call_index():
 def index():
 	return render_template('index.html')
 
+@app.route('/resource/<path:res_iri>')
+def call_lucinda(res_iri):
+	return render_template('resource.html')
+
 if __name__ == "__main__":
 	app.run(host=c["app_host"], port=c["app_port"], debug=True) # CHANGE debug

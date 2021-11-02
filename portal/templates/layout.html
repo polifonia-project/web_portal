@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+      <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+      <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+      <!-- POLIFONIA -->
+      <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+</head>
+
+  <body class="container">
+    <h1>Polifonia</h1>
+    {% block body %}{% endblock %}
+  </body>
+</html>

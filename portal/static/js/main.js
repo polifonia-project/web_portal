@@ -12,7 +12,7 @@ function cb(selection) {
         success: function (result) {
           console.log(result);
           for (i = 0; i < result.length; i++) {
-            $("#search").append("<p>"+result[i].uri+","+result[i].label+"</p>");
+            $("#search").append("<p><a href='resource/"+result[i].uri+"'>"+result[i].label+"</a></p>");
           }
         }
 

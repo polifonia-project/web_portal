@@ -1,13 +1,11 @@
-<!doctype html>
-<html>
-<head>
+{% extends "layout.html" %}
+{% block body %}
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="text/javascript" src="static/main.js"></script>
-</head>
+  <!-- SEARCH -->
+  <section class="row">
+    <input class="col-md-10 col-sm-10" type="text" id="fname" name="fname" onchange="cb(this.value)">
+    <div class="col-md-10 col-sm-10" id="search" class="search"></div>
+  </section>
 
-<body>
-    <input type="text" id="fname" name="fname" onchange="cb(this.value)">
-    <div id="search" class="search"></div>
-</body>
-</html>
+
+{% endblock %}
