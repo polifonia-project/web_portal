@@ -29,13 +29,20 @@ The fields returned by this operation are:
 #output_json [
     {
         "uri":"http://example.org/1",
-        "label": "Verovio"
+        "label": "Verovio",
+        "type": ""
     },
     {
         "uri":"http://example.org/2",
-        "label": "MIDI Linked Data"
+        "label": "MIDI Linked Data",
+        "type": ""
     }
 ]
-#sparql SELECT ?uri (SAMPLE(?l)AS ?label) WHERE {
+#sparql PREFIX schema: <https://schema.org/>
+  SELECT ?uri (SAMPLE(?l)AS ?label) ?type WHERE {
   VALUES ?uri { [[res_uris]] }
-  ?uri rdfs:label ?l . } GROUP BY ?uri
+  ?uri rdfs:label ?l .
+  OPTIONAL { ?uri schema:additionalType / rdfs:label ?add_type  }
+  OPTIONAL { ?uri a ?class. }
+  BIND(COALESCE(?add_type, ?class, "term") AS ?type)
+  } GROUP BY ?uri ?type

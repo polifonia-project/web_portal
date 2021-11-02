@@ -1,15 +1,15 @@
 #builtin libraries
 import json
+from collections import defaultdict
 
 # local modules
 import indexing as i
 
-
 # external libraries
 from flask import Flask, render_template, request, jsonify
 import requests
-# APP
 
+# APP
 app = Flask(__name__)
 
 # CONFIG FILE
@@ -18,33 +18,53 @@ with open("config.json") as config_form:
 
 # DATA INGESTION
 #i.sonic_flush_bucket()
-i.ingest_data("musow")
-print("count index:", i.sonic_count())
+for source, details in c["data_sources"].items():
+	i.ingest_data(source)
+#print("count index:", i.sonic_count())
 
 
 # ROUTING
 
 @app.route('/index', methods=['POST', 'GET'])
 def call_index():
-	"""Callback function to query the index. Used in the text search
+	"""Callback function to query the index.
+	Get the URIs matching the query string from the index.
+	Dispatch queries to APIs based on the URI base (as specified in config.json)
+	Return a list of URI, labels to be used in the text search.
+
+	Parameters
+	-------
+		the string submitted in a text search, retrieved via GET from frontend
 
 	Returns
 	-------
-		a dictionary n:v where n is a progressive number
-		and v is the URI of a resource.
+		all_results: list of disctionaries including queried uris and labels
 	"""
+	# query the index
 	try:
 		uri_list = i.query_index(request.args.get('data'))
 	except:
 		return jsonify({'result': 'Invalid parameter'})
 
-	# TODO dispatch query to correct apis, based on uri base
-	param = "__".join(["<"+uri+">" for uri in uri_list])
-	req = requests.get("http://127.0.0.1:8081/musow/v1/metadata/"+param)
-	res = ""
-	if req.status_code == 200:
-		res = req.json()
-	return jsonify(res)
+	# get apis based on uris base
+	mappings = defaultdict(list)
+	for source, details in c["data_sources"].items():
+		for uri in uri_list:
+			if details["iri_base"] in uri:
+				mappings[details["rest_api"]+"/metadata/"].append(uri)
+	mappings = dict(mappings)
+
+	# dispatch query to the correct api
+	all_results = []
+	for api, uris in mappings.items():
+		param = "__".join(["<"+uri+">" for uri in uris])
+		req = requests.get(api+param)
+		if req.status_code == 200:
+			res = req.json()
+			# merge results from apis
+			for r in res:
+				all_results.append(r)
+	return jsonify(all_results)
 
 @app.route('/')
 def index():
