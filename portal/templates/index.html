@@ -8,23 +8,23 @@
 
     <section id="equaliser" class="equaliser row justify-content-md-center">
       <section class="col-md-2 col-sm-2 eq thumb_yellow">
-        <input onchange="showSection(this.value)" class="col-md-3 col-sm-12" type='range' value='40'/>
+        <input id='music_sources' onchange="showSection(this.value, this.id)" class="col-md-3 col-sm-12" type='range' value='40'/>
         <span class="col-md-3 col-sm-12">discover music sources on the web</span>
       </section>
       <section class="col-md-2 col-sm-2 eq thumb_red">
-        <input onchange="showSection(this.value)" class="col-md-3 col-sm-12" type='range' value='40'/>
+        <input id='meet' onchange="showSection(this.value,this.id)" class="col-md-3 col-sm-12" type='range' value='40'/>
         <span class="col-md-3 col-sm-12">meet the protagonists of music history</span>
       </section>
       <section class="col-md-2 col-sm-2 eq thumb_violet">
-        <input onchange="showSection(this.value)" class="col-md-3 col-sm-12" type='range' value='40'/>
+        <input id='analyse' onchange="showSection(this.value,this.id)" class="col-md-3 col-sm-12" type='range' value='40'/>
         <span class="col-md-3 col-sm-12">analyse historical music scores</span>
       </section>
       <section class="col-md-2 col-sm-2 eq thumb_green">
-        <input onchange="showSection(this.value)" class="col-md-3 col-sm-12" type='range' value='40'/>
+        <input id='recommend' onchange="showSection(this.value,this.id)" class="col-md-3 col-sm-12" type='range' value='40'/>
         <span class="col-md-3 col-sm-12">get inspired with recommended music</span>
       </section>
       <section class="col-md-2 col-sm-2 eq thumb_blue">
-        <input onchange="showSection(this.value)" class="col-md-3 col-sm-12" type='range' value='40'/>
+        <input id='experience' onchange="showSection(this.value,this.id)" class="col-md-3 col-sm-12" type='range' value='40'/>
         <span class="col-md-3 col-sm-12">find a unique music experience</span>
       </section>
 

@@ -1,7 +1,10 @@
+
+
 document.addEventListener("DOMContentLoaded", function(event) {
   // SEARCH RESULTS
   $("#search").hide();
 
+  console.log(sections);
   // CHANGE HEADER ON SCROLLING
   var equaliser = document.getElementById("equaliser");
   $(window).scroll(function(){
@@ -38,33 +41,28 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   });
 
-
-
   // NAVBAR
   const showNavbar = (toggleId, navId, bodyId, headerId) =>{
-  const toggle = document.getElementById(toggleId),
-  nav = document.getElementById(navId),
-  bodypd = document.getElementById(bodyId),
-  headerpd = document.getElementById(headerId)
-
-  // Validate that all variables exist
-  if(toggle && nav && bodypd && headerpd){
-    toggle.addEventListener('click', ()=>{
-      // show navbar
-      nav.classList.toggle('show')
-      // change icon
-      toggle.classList.toggle('bx-x')
-      // add padding to body
-      bodypd.classList.toggle('body-pd')
-      // add padding to header
-      headerpd.classList.toggle('body-pd')
-    })
-  }
+    const toggle = document.getElementById(toggleId),
+    nav = document.getElementById(navId),
+    bodypd = document.getElementById(bodyId),
+    headerpd = document.getElementById(headerId)
+    // Validate that all variables exist
+    if(toggle && nav && bodypd && headerpd){
+      toggle.addEventListener('click', ()=>{
+        // show navbar
+        nav.classList.toggle('show')
+        // change icon
+        toggle.classList.toggle('bx-x')
+        // add padding to body
+        bodypd.classList.toggle('body-pd')
+        // add padding to header
+        headerpd.classList.toggle('body-pd')
+      })
+    }
   }
 
   showNavbar('header-toggle','nav-bar','body-pd','header')
-
-  /*===== LINK ACTIVE =====*/
   const linkColor = document.querySelectorAll('.nav_link')
 
   function colorLink(){
@@ -74,6 +72,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
   }
   linkColor.forEach(l=> l.addEventListener('click', colorLink))
+
+  // TUNE SECTIONS
+  var sections = init_equaliser(".eq input");
 
 });
 
@@ -102,7 +103,20 @@ function call_index(selection) {
 
 }
 
+function init_equaliser(idx) {
+  var sections = {};
+  var inputs = $(idx);
+  inputs.each(function () {
+    var iname = $(this).attr('id');
+    var num = $(this).val();
+    sections[iname] = num;
+  });
+  return sections
+}
+
 // show section on input change
-function showSection(num) {
-  console.log(num);
+function showSection(num, name) {
+  var sections = init_equaliser(".eq input");
+  sections[name] = num;
+  console.log(sections);
 }
