@@ -4,18 +4,20 @@
       <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
       <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
       <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/equaliser.css') }}">
       <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+      <script type="text/javascript" src="{{ url_for('static', filename='js/dotimeout.min.js') }}"></script>
       <!-- POLIFONIA -->
       <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+
 </head>
 
 <body id="body-pd">
     <header class="header" id="header">
         <div class="header_toggle"> <span class='bx bx-menu' id="header-toggle"><</span> </div>
-        <div class="">
-          <span>Search</span>
-          <span><input class="col-md-12 col-sm-6" type="text" id="fname" name="fname" onchange="call_index(this.value)"></span>
-        </div>
+        <!-- <div class="header_img">
+
+        </div> -->
     </header>
     <div class="l-navbar" id="nav-bar">
         <nav class="nav">
@@ -25,7 +27,12 @@
                   <span class="nav_logo-name">Polifonia</span>
                 </a>
               <div class="nav_list">
-                <a href="/" class="nav_link active"> <span class='nav_icon'>H</span> <span class="nav_name">home</span> </a>
+                <!-- <a href="/" class="nav_link active"> <span class='nav_icon'>H</span> <span class="nav_name">home</span> </a> -->
+                <a href="#" class="nav_link">
+                  <span class='nav_icon'><img src="{{ url_for('static', filename='imgs/clef.png') }}" alt=""></span>
+                  <span class="nav_name"><input class="text_search justify-content-md-left" type="text" id="fname" name="fname" onchange="call_index(this.value)"></span>
+
+                </a>
                 <!-- <a href="#" class="nav_link"> <i class='bx bx-message-square-detail nav_icon'></i> <span class="nav_name">Messages</span> </a>
                 <a href="#" class="nav_link"> <i class='bx bx-bookmark nav_icon'></i> <span class="nav_name">Bookmark</span> </a>
                 <a href="#" class="nav_link"> <i class='bx bx-folder nav_icon'></i> <span class="nav_name">Files</span> </a>
@@ -35,59 +42,15 @@
             <!--  <a href="#" class="nav_link"> <i class='bx bx-log-out nav_icon'></i> <span class="nav_name">SignOut</span> </a> -->
         </nav>
     </div>
+    <div class="col-md-4 col-sm-9" id="search"></div>
     <!--Container Main start-->
     <div class="height-100 main_bg">
-      <section class="row">
-
-
-        <h1>Polifonia</h1>
-        <main class="col-md-7 col-sm-7">
+        <main class="">
           {% block body %}{% endblock %}
         </main>
-
-        <div class="col-md-4 col-sm-9" id="search" class="search"></div>
-      </section>
     </div>
 
+
 </body>
-  <!-- <body>
-    <section class="wrapper">
-      <nav id="sidebar" class="navbar navbar-expand-lg navbar-light">
-        <div class="sidebar-header">
-                <h3>Bootstrap Sidebar</h3>
-        </div>
-        <ul class="list-unstyled">
-          <li><a href="/">Home</a></li>
-          <li>Search</li>
-          <li><input class="col-md-12 col-sm-6" type="text" id="fname" name="fname" onchange="call_index(this.value)"></li>
-
-        </ul>
-      </nav>
-
-      <section id="content" class="col-md-12">
-
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
-
-              <button type="button" id="sidebarCollapse" class="btn btn-info">
-                  <i class="fas fa-align-left"></i>
-                  <span>Toggle Sidebar</span>
-              </button>
-
-          </div>
-        </nav>
-        <div class="col-md-4 col-sm-4" id="search" class="search"></div>
-
-      </section>
-
-    </section>
-
-
-
-
-
-
-
-  </body> -->
 
 </html>
