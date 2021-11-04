@@ -175,8 +175,11 @@ a {
 #search {position: fixed; background-color: var(--first-color); padding: 2em; border-radius: 5px;}
 .res_type {background-color: black; color: white; font-size: 0.6rem; padding: 0.5em; margin-right: 1em;}
 
-
-
+/* MAIN CONTENT */
+#maincontent {margin-top: 10em; color:black;}
+.category_section {margin: 5em;}
+.category_section section {padding: 3em;   background: linear-gradient(90deg, yellow 50%, #fff 50%); }
+.category_title {}
 
 /* MEDIA QUERY */
 /* small */
@@ -190,7 +193,7 @@ a {
 @media screen and (min-width: 768px) {
     body {
         margin: calc(var(--header-height) + 1rem) 0 0 0;
-        padding-left: calc(var(--nav-width) + 2rem)
+        padding-left: calc(var(--nav-width))
     }
 
     .header {
