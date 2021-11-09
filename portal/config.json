@@ -11,7 +11,8 @@
    "github": "",
    "sparql_endpoint": "https://projects.dharc.unibo.it/musow/sparql",
    "rest_api": "http://127.0.0.1:8081/musow/v1",
-   "status": "ingested"
+   "status": "ingested",
+   "section_id":"music_sources"
   }
  }
 }

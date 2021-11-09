@@ -14,7 +14,7 @@
 
 <body id="body-pd">
     <header class="header" id="header">
-        <div class="header_toggle"> <span class='bx bx-menu' id="header-toggle"><</span> </div>
+        <div class="header_toggle"> <span class='bx bx-menu' id="header-toggle"> <img id="open_menu" class="small_icon" src="{{ url_for('static', filename='imgs/sound.png') }}" alt=""> </span> </div>
         <!-- <div class="header_img">
 
         </div> -->
@@ -30,7 +30,7 @@
                 <!-- <a href="/" class="nav_link active"> <span class='nav_icon'>H</span> <span class="nav_name">home</span> </a> -->
                 <a href="#" class="nav_link">
                   <span class='nav_icon'><img src="{{ url_for('static', filename='imgs/clef.png') }}" alt=""></span>
-                  <span class="nav_name"><input class="text_search justify-content-md-left" type="text" id="fname" name="fname" onchange="call_index(this.value)"></span>
+                  <span class="nav_name"><input placeholder="search" class="text_search justify-content-md-left" type="text" id="fname" name="fname" onchange="call_index(this.value)"></span>
 
                 </a>
                 <!-- <a href="#" class="nav_link"> <i class='bx bx-message-square-detail nav_icon'></i> <span class="nav_name">Messages</span> </a>

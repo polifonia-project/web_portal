@@ -24,18 +24,19 @@ The fields returned by this operation are:
 
 * *uri:* the uri of the resource;
 * *label:* the rdfs:label of the resource;
+* *type:* the class or additional type associated with the resource;
 #call /metadata/&lt;https://w3id.org/musow/1635268063-604429&gt;
-#field_type str(label)
+#field_type str(label) str(uri)
 #output_json [
     {
         "uri":"http://example.org/1",
         "label": "Verovio",
-        "type": ""
+        "type": "Software"
     },
     {
         "uri":"http://example.org/2",
         "label": "MIDI Linked Data",
-        "type": ""
+        "type": "Dataset"
     }
 ]
 #sparql PREFIX schema: <https://schema.org/>
@@ -46,3 +47,37 @@ The fields returned by this operation are:
   OPTIONAL { ?uri a ?class. }
   BIND(COALESCE(?add_type, ?class, "term") AS ?type)
   } GROUP BY ?uri ?type
+
+#url /recommend/{num}
+#type operation
+
+#method get
+#description This operation retrieves basic metadata of randomly selected resources in the dataset.
+
+It is possible to specify the number of resources as input of this operation.
+The fields returned by this operation are:
+
+* *uri:* the uri of the resource;
+* *label:* the rdfs:label of the resource;
+* *type:* the class or additional type associated with the resource;
+#call /recommend/5
+#field_type str(uri) str(label)
+#output_json [
+{
+    "uri":"http://example.org/1",
+    "label": "Verovio",
+    "type": "Software"
+},
+{
+    "uri":"http://example.org/2",
+    "label": "MIDI Linked Data",
+    "type": "Dataset"
+}
+]
+#sparql PREFIX schema: <https://schema.org/>
+  SELECT ?uri (SAMPLE(?l)AS ?label) ?type WHERE {
+  VALUES ?class { <https://schema.org/CreativeWork> }
+  ?uri a ?class ; rdfs:label ?l .
+  OPTIONAL { ?uri schema:additionalType / rdfs:label ?add_type  }
+  BIND(COALESCE(?add_type, ?class, "term") AS ?type)
+  } GROUP BY ?uri ?type LIMIT [[num]]

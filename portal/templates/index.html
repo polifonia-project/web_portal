@@ -1,5 +1,6 @@
 {% extends "layout.html" %}
 {% block body %}
+  <script type="text/javascript"> conf = {{conf|tojson}} </script>
   <section id="equaliser_container">
     <section class="home_logo text-center col-md-12 col-sm-12">
       <img class="img-fluid mx-auto d-block" src="{{ url_for('static', filename='imgs/Polifonia_Logo_H_W.jpg') }}" alt="">

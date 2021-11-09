@@ -68,7 +68,7 @@ def call_index():
 
 @app.route('/')
 def index():
-	return render_template('index.html')
+	return render_template('index.html',conf=c["data_sources"])
 
 @app.route('/resource/<path:res_iri>')
 def call_lucinda(res_iri):

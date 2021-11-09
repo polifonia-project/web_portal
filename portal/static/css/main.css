@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 
 :root {
     --header-height: 3rem;
@@ -178,9 +178,16 @@ a {
 /* MAIN CONTENT */
 #maincontent {margin-top: 10em; color:black;}
 .category_section {margin: 5em;}
-.category_section section {padding: 3em;   background: linear-gradient(90deg, yellow 50%, #fff 50%); }
-.category_title {}
-
+.category_section section {padding: 3em;}
+#section_music_sources section:first-of-type {background: linear-gradient(180deg, yellow 200px, #fff 0%); }
+#section_experience section:first-of-type  { background: linear-gradient(180deg, #00ffff 200px, #fff 0%);}
+#section_meet section:first-of-type{ background: linear-gradient(180deg, red 200px, #fff 0%);}
+#section_analyse section:first-of-type { background: linear-gradient(180deg, #5f1be2 200px, #fff 0%);}
+#section_recommend section:first-of-type { background: linear-gradient(180deg, #00ff00 200px, #fff 0%);}
+.category_title {font-size: 3rem; }
+.resource {margin-bottom: 1em; padding: 2em; border: solid 2px black; background: white !important; box-shadow: 5px 10px;}
+.resource h3 {font-family: 'Playfair Display', serif;}
+.small_icon {width: 30px; height: auto; float: right;}
 /* MEDIA QUERY */
 /* small */
 @media screen and (max-width: 768px) {
