@@ -38,7 +38,7 @@ def call_index():
 
 	Returns
 	-------
-		all_results: list of disctionaries including queried uris and labels
+		all_results: list of dictionaries including queried uris and labels
 	"""
 	# query the index
 	try:

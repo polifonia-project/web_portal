@@ -184,16 +184,19 @@ a {
 #section_meet section:first-of-type{ background: linear-gradient(180deg, red 200px, #fff 0%);}
 #section_analyse section:first-of-type { background: linear-gradient(180deg, #5f1be2 200px, #fff 0%);}
 #section_recommend section:first-of-type { background: linear-gradient(180deg, #00ff00 200px, #fff 0%);}
+
 .category_title {font-size: 3rem; }
 .resource {margin-bottom: 1em; padding: 2em; border: solid 2px black; background: white !important; box-shadow: 5px 10px;}
 .resource h3 {font-family: 'Playfair Display', serif;}
 .small_icon {width: 30px; height: auto; float: right;}
+
 /* MEDIA QUERY */
 /* small */
 @media screen and (max-width: 768px) {
-  .eq {margin: 1em auto; text-align: center;}
-  .equaliser section span {margin-top: 2em !important; text-align: center; display: block;}
+  .eq {margin: 0.1em auto; text-align: center;}
+  /* .equaliser section span {margin-top: 2em !important; text-align: center; display: block;} */
   input[type=range] {transform: none !important;}
+  .category_section {margin: .5em !important;}
 }
 
 /* medium large */

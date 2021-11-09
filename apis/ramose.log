@@ -823,3 +823,25 @@ AttributeError: type object 'DataType' has no attribute 'anyURI'
 [2021-11-09 15:36:16,420] [Thread-27   ] [INFO ]  127.0.0.1 - - [09/Nov/2021 15:36:16] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
 [2021-11-09 15:37:50,070] [Thread-28   ] [INFO ]  127.0.0.1 - - [09/Nov/2021 15:37:50] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-604429%3E HTTP/1.1" 200 -
 [2021-11-09 15:37:54,287] [Thread-29   ] [INFO ]  127.0.0.1 - - [09/Nov/2021 15:37:54] "GET /musow/v1/metadata/%3Chttps://w3id.org/musow/1635268063-603507%3E__%3Chttps://w3id.org/musow/1635268063-601393%3E__%3Chttps://w3id.org/musow/1635268063-595624%3E__%3Chttps://w3id.org/musow/8bde822535da29dabce057e2bdf99d09%3E__%3Chttps://w3id.org/musow/46f18c989bcd3e6eaa843fe3225ff380%3E__%3Chttps://w3id.org/musow/vocab/midi-collection%3E__%3Chttps://w3id.org/musow/vocab/midi%3E HTTP/1.1" 200 -
+[2021-11-09 16:00:00,474] [Thread-30   ] [INFO ]  127.0.0.1 - - [09/Nov/2021 16:00:00] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 16:04:32,738] [MainThread  ] [INFO ]   * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+[2021-11-09 16:04:53,342] [Thread-1    ] [INFO ]  127.0.0.1 - - [09/Nov/2021 16:04:53] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 16:05:33,522] [Thread-2    ] [INFO ]  127.0.0.1 - - [09/Nov/2021 16:05:33] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 16:05:41,185] [Thread-3    ] [INFO ]  127.0.0.1 - - [09/Nov/2021 16:05:41] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 16:07:09,006] [Thread-4    ] [INFO ]  127.0.0.1 - - [09/Nov/2021 16:07:09] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 16:07:15,357] [Thread-5    ] [INFO ]  127.0.0.1 - - [09/Nov/2021 16:07:15] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 16:07:21,551] [Thread-6    ] [INFO ]  127.0.0.1 - - [09/Nov/2021 16:07:21] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 16:15:35,286] [Thread-7    ] [INFO ]  127.0.0.1 - - [09/Nov/2021 16:15:35] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 16:22:09,424] [Thread-8    ] [INFO ]  127.0.0.1 - - [09/Nov/2021 16:22:09] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 16:28:43,558] [Thread-9    ] [INFO ]  127.0.0.1 - - [09/Nov/2021 16:28:43] "GET /musow/v1/recommend/6 HTTP/1.1" 200 -
+[2021-11-09 16:38:23,988] [Thread-10   ] [INFO ]  127.0.0.1 - - [09/Nov/2021 16:38:23] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 16:39:59,917] [Thread-11   ] [INFO ]  127.0.0.1 - - [09/Nov/2021 16:39:59] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 16:52:18,852] [Thread-12   ] [INFO ]  127.0.0.1 - - [09/Nov/2021 16:52:18] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 16:53:15,186] [Thread-13   ] [INFO ]  127.0.0.1 - - [09/Nov/2021 16:53:15] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 16:56:29,647] [Thread-14   ] [INFO ]  127.0.0.1 - - [09/Nov/2021 16:56:29] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 16:57:34,478] [Thread-15   ] [INFO ]  127.0.0.1 - - [09/Nov/2021 16:57:34] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 17:04:45,017] [Thread-16   ] [INFO ]  127.0.0.1 - - [09/Nov/2021 17:04:45] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 17:05:18,321] [Thread-17   ] [INFO ]  127.0.0.1 - - [09/Nov/2021 17:05:18] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 17:07:19,678] [Thread-18   ] [INFO ]  127.0.0.1 - - [09/Nov/2021 17:07:19] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 17:07:36,281] [Thread-19   ] [INFO ]  127.0.0.1 - - [09/Nov/2021 17:07:36] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -
+[2021-11-09 17:11:08,756] [Thread-20   ] [INFO ]  127.0.0.1 - - [09/Nov/2021 17:11:08] "GET /musow/v1/recommend/5 HTTP/1.1" 200 -

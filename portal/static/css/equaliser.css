@@ -33,6 +33,8 @@ input[type=range]::-webkit-slider-thumb {
   background-repeat: no-repeat;
 }
 
+
+
 .thumb_yellow input[type=range]::-webkit-slider-thumb {
   background-image: url('../imgs/thumb_yellow.png') !important;
 }
@@ -82,7 +84,15 @@ header input[type=range]::-webkit-slider-runnable-track {
   background: black !important; /* slider */
 }
 
-
+/* equaliser in smaller screens */
+.notop { margin-top: 0px !important;}
+.resized {margin-top: 0.2em !important; max-width: 150px;}
+.resized::-webkit-slider-thumb {
+  height: 50px !important;
+  width: 50px !important;
+  margin-top: -24px !important;
+}
+.resized+span {margin-top: 0 !important; display: inline !important; max-width: 200px;}
 
 /* input[type=range]::-ms-track {
   width: 100%;

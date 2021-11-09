@@ -94,23 +94,25 @@ document.addEventListener("DOMContentLoaded", function(event) {
         if (isScrolledIntoView('#maincontent') && !firstScroll) {
             load_sections_first_time(sorted_sections);
             firstScroll = true;
-
         }
-        // FOLLOWING TIMES
-        //else if (isScrolledIntoView('#maincontent') && firstScroll) {
-          // update equaliser object if changed
-        //} else {  };
-
-
-        // $.doTimeout( 'scrollTop', 50, function(){
-        //
-        // });
 
       }
     }
 
   });
 
+  // MEDIA QUERY
+  if(jQuery(window).width() < 800 ) {
+    $('.equaliser').toggleClass('notop');
+    $('.equaliser > section').toggleClass('row');
+    $('.eq > input').toggleClass('resized');
+    // var elements = document.getElementsByClassName('resized');
+    // for (var i = 0; i < elements.length; i++) {
+    //   elements[i].css('max-width','200px');
+    //   elements[i].css('margin-top','0.2em !important');
+    //   elements[i].style['-webkit-filter']
+    // }
+  }
 });
 
 // loads sections the first time the user scrolls down
@@ -130,12 +132,12 @@ function load_sections_first_time(sorted_sections) {
 // create section, call apis
 function add_section(section_id,section_title,counter){
   sec = category_section(section_id,section_title,counter);
-
   c = parseInt(counter);
   n_res = parseInt(c/10);
   if (n_res >= 1) { $("#maincontent").append(sec); add_resources(section_id, n_res)};
 }
 
+// create section
 function category_section(section_id, section_title, counter) {
   c = parseInt(counter);
   n_res = parseInt(c/10);
@@ -143,10 +145,11 @@ function category_section(section_id, section_title, counter) {
   var s = "<section class='row col-md-10 col-sm-10 category_section justify-content-md-center' id='section_"+section_id+"'>\
             <section class='col-md-4 col-sm-4'>\
                 <h2 class='category_title row col-md-12 col-sm-12'>"+section_title+"</h2>\
-                <p class='col-md-12 col-sm-12' id='section_"+section_id+"_counter' data-counter='"+n_res+"'>"+n_res+"</p>\
+                <p class='col-md-12 col-sm-12' id='section_"+section_id+"_counter' data-counter='"+n_res+"'></p>\
             </section>\
             <section class='resources col-md-6 col-sm-6 right'>\
             </section>\
+            <button onclick='upload_more_resources()'>read more</button>\
           </section>";
   return s
 }
@@ -170,7 +173,7 @@ function call_apis(section_id, api) {
       success: function (result) {
         if (result.length) {
           for (i = 0; i < result.length; i++) {
-            var res = category_resource(result[i].uri, result[i].label, result[i].type);
+            var res = category_resource(result[i].uri, result[i].label, result[i].type, result[i].desc);
             $("#section_"+section_id+" .resources").append(res);
           }
         }
@@ -179,10 +182,10 @@ function call_apis(section_id, api) {
 }
 
 // resource template in homepage
-function category_resource(uri, label, type='Resource') {
+function category_resource(uri, label, type='Resource', desc='Read more') {
   var res = "<section class='resource col-md-12 col-sm-12'>\
       <h3 class='col-md-8 col-sm-8'>"+label+"</h3>\
-      <p><span class='res_type'>"+type+"</span></p>\
+      <p><span class='res_type'>"+type+"</span> "+desc+"</p>\
       <a href='resource/"+uri+"'>\
         <img class='small_icon' src='static/imgs/play.png'/>\
       </a>\
@@ -284,3 +287,6 @@ function showSection(num, name) {
   }
 
 }
+
+// add new resources
+function upload_more_resources() {}

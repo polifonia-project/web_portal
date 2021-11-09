@@ -59,7 +59,8 @@ The fields returned by this operation are:
 
 * *uri:* the uri of the resource;
 * *label:* the rdfs:label of the resource;
-* *type:* the class or additional type associated with the resource;
+* *type:* the class or additional type associated with the resource, if available;
+* *desc:* a description of the resource, if available;
 #call /recommend/5
 #field_type str(uri) str(label)
 #output_json [
@@ -75,9 +76,10 @@ The fields returned by this operation are:
 }
 ]
 #sparql PREFIX schema: <https://schema.org/>
-  SELECT ?uri (SAMPLE(?l)AS ?label) ?type WHERE {
+  SELECT ?uri (SAMPLE(?l)AS ?label) ?type ?desc WHERE {
   VALUES ?class { <https://schema.org/CreativeWork> }
   ?uri a ?class ; rdfs:label ?l .
   OPTIONAL { ?uri schema:additionalType / rdfs:label ?add_type  }
+  OPTIONAL { ?uri schema:description ?desc .}
   BIND(COALESCE(?add_type, ?class, "term") AS ?type)
-  } GROUP BY ?uri ?type LIMIT [[num]]
+  } GROUP BY ?uri ?type ?desc LIMIT [[num]]
