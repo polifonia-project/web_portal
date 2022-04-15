@@ -1,0 +1,167 @@
+Meta,"Section 
+ title","Navigation
+ method",Results,"Preview
+ Metadata","Metadata 
+ on expand","Stats on 
+ item expand","Call for 
+ action","Data 
+ sources",Personas
+A reference to the main entities involved (see the graph on the right),The title of the section with a variable element (below in {XXX}) that the user can change.,"A graphical overview 
+ of the contents of the section to be used to prune results","A list of results responding to one or more data pattern 
+ (triple pattern) associated to the section","Minimal 
+ information 
+ to be shown 
+ for each result",The additional information to be shown when selecting a result,A graph/chart to be shown along with metadata when selecting a result. It provides answer to one or more CQs,Specific actions based on the type of data at hand and generic tasks,Pilots data sources and external sources,Personas and pilots relevent to this section
+"Annotation
+ Source","Did you say {TOPIC}?
+ 
+ Discover documents and web resources that talk about {TOPIC}","A bar chart showing the number of documents grouped by type (e.g. datasets, book excerpts, websites)","DOC or WEB RESOURCE
+ 
+ :res :subject :topic.
+ :res fulltextsearch :topic
+ 
+ sort by resource type","title
+ type
+ date
+ authors","description, 
+ full text
+ roles (e.g. publisher, projects),
+ other subjects,
+ audience,
+ URL","A bar chart: 
+ Audience types for this type of resource 
+ 
+ Fallback?","See data stories featuring {TOPIC}
+ 
+ Share the chart","musoW, MEETUPS, CHILD,
+ MUSICBO
+ ---
+ Internet archive","Ortenz (CHILD)
+ David (MEETUPS)
+ Sophia (MEETUPS)
+ Laurent (MUSOW)
+ Carolina (MUSICBO)"
+"Agent
+ Performance","Pack your things and travel with a musician: {PERFORMER_COMPOSER}
+ 
+ All the performances of {PERFORMER_COMPOSER}",A bar chart showing the number of performances grouped by timespan,"PERFORMANCE
+ 
+ :res :performed :composer_work
+ 
+ :res :hasperformer :performer
+ 
+ sort by performance date","title
+ type
+ date
+ place","description
+ performed songs performers",Barchart of performers with whom the artist interacted in their carrier,"See data stories featuring {PERFORMER}
+ 
+ Listen on spotify
+ 
+ Share the chart","CHILD, MEETUPS, INTERLINK","Ortenz (CHILD)
+ David (MEETUPS)
+ Sophia (MEETUPS)
+ Sonia (INTERLINK)
+ William (INTERLINK)"
+"Place
+ Event
+ Instrument
+ Music work","The soundscape of {PLACE}
+ 
+ Travel in time and meet musicians, events, instruments, and music works of {PLACE}","A bar chart with number of instrument types, events types (performances, productions, recordings) people related to the place (born, dead, played), songs related to places, etc",":res currentplace :place
+ 
+ :res happenedin :place
+ 
+ :res subject :place
+ 
+ :res any :place
+ 
+ sort by resource type","title
+ type","if event: title, date, roles
+ 
+ if instrument: name, builder, date
+ 
+ if music work: title, author, date, country, text or score","If event: timeline of similar events
+ 
+ if instrument: barchart with instruments of other type currently in that place
+ 
+ if song: barchart of topics related to songs having place as subject","See data stories featuring {PLACE}
+ 
+ Listen on spotify (if song)
+ 
+ Share the chart","BELLS, MUSICBO, INTERLINK,
+ MEETUPS?","Carolina (MUSICBO)
+ Keoma (BELLS)
+ William (INTERLINK)
+ Carolina (MUSICBO)"
+"Annotation
+ Collection
+ Agent","What gets you in the mood of {GENRE_STYLE}
+ 
+ The artists that made the history of {GENRE_STYLE}",A bar chart showing the number of artists grouped by timespan,":artist_work :genre :res
+ 
+ :artist :genre :res
+ 
+ sort by timespan","name
+ dates
+ country","description
+ main works
+ collections featuring artist","network harmonic similarity with other artists/genres
+ 
+ network melodic similarity with other artists/genres
+ 
+ network lyrics similarity with other artists/genres","See data stories featuring {GENRE_STYLE}
+ 
+ Listen on spotify
+ 
+ View works on musicbrainz?
+ 
+ Share the chart","INTERLINK
+ (LHARP?)
+ ---
+ Wikidata, MusicBrainz,
+ Spotify","Sonia
+ (INTERLINK)
+ Mark (TUNES)"
+Music work,Play the scores of {COMPOSER},A bar chart showing the number of scores grouped by timespan,:res composer :composer,"title
+ date",score (with verovio?),"Patterns, analyses of scores of the same composer","See data stories featuring {COMPOSER}
+ 
+ Listen on spotify
+ 
+ Share the chart","TUNES
+ FACETS
+ TONALITIES","TUNES
+ FACETS
+ TONALITIES"
+Music work,"Find your melody: {MELODY_PATTERN}
+ 
+ Get results across datasets","A bar chart showing the number of works with that pattern, grouped by artist",:res pattern :music_pattern,"title
+ date
+ author",score (with verovio?),"Patterns, analyses of scores of the same composer","See data stories featuring {MUSIC_PATTERN}
+ 
+ Listen on spotify
+ 
+ Share the chart","TUNES
+ FACETS
+ TONALITIES","TUNES
+ FACETS
+ TONALITIES"
+Music work,"Sing a song about {TERM}
+ 
+ Lyrics and texts featuring {TERM}","A bar chart showing the number of works with that term, grouped by artist",:res fulltextsearch :term,"title
+ author
+ date",Full text or excerpt,?,"See full lyrics (on musixmatch or?)
+ 
+ Listen on spotify","TONALITIES, INTERLINK, 
+ ---
+ musixmatch,
+ Internet archive,
+ Genius, songfacts","Sethus
+ (TONALITIES)
+ Sonia
+ (INTERLINK)"
+Instrument,The history of instruments: {INSTRUMENT},?,:res type :instrument,"name
+ country?","builder, place, materials, pitch?","If organ or bell: barchart of materials for similar instruments?
+ 
+ If others: performances?",,"ORGANS, BELLS","Mark, Amy, Paul and Frank (ORGANS)
+ Patrizia and Keoma (BELLS)"

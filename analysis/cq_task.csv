@@ -1,0 +1,88 @@
+Goal,CQ ID,CQ,Web Portal,Dashboard
+Share content,Laurent1-Q6,How can I share what I find on the site?,Yes,Yes
+,Andrea1-Q5,How can I share what I find on the site?,Yes,Yes
+Search content,Amy1-CQ1,"Search organs with the possibility to combine searches, based on various features.",Yes,Yes
+,Laurent1-Q1,"Search for a musical content by applying filters (genre, historical period ...).",Yes,Yes
+,Andrea1-Q1,Can I find interesting materials without applying filters?,Yes,Yes
+Personalize content,Laurent1-Q5,Can a user add resources?,Yes,Yes
+,Andrea1-Q3,Is there a way of visualizing all the materials connected to my interests?,Yes,Yes
+,Andrea1-Q6,How can I personalize my navigation experience without knowing the filtering criteria or the materials' characteristics?,Yes,Yes
+Learn more about content,Sonia1-CQ6,What information is available for the composer(s)/musician(s)?,,Yes
+,Sonia2-CQ3,Which feature is selected to create the shuffle?,,Yes
+,Ralph1-CQ6,How can one describe and classify a scenario?,,Yes
+,Amy1-CQ7,Where can more information be found about a specific organ/organ builder/time period/location/etc.? / Which literature or resources contain information about a specific organ/organ builder/time period/location/etc.?,Yes,Yes
+,Frank1-Q1,"Search organs with the possibility to combine searches, based on various features. (In this scenario: city, building, organ builder, disposition)",Yes,Yes
+,Laurent1-Q3,Is the music resource X complete or incomplete?,Yes,Yes
+Find relation between different content,Keith1-CQ1,Can we find connection (relations) between different artists and music?,,Yes
+,Keith1-CQ3,"Can we visualize the relations between different media, different music etc?",,Yes
+,Mark1-CQ5,Which tunes share their geographical origin?,,Yes
+,Mark2-CQ6,"Can we see interconnections between organs, e.g. same builder",,Yes
+,Ortenz2-CQ23,Did musician X and performer Y ever met?,,Yes
+,Ortenz2-CQ23,Where did musician X and performer Y met?,,Yes
+,William1-CQ4,Which composers and performers are related to these compositions?,,Yes
+,Sonia1-CQ2,With which image/textual information/multimedia/musical piece is the selected musical piece connected to inside/outside the playlist?,,Yes
+,Sonia1-CQ8,"Has another musical piece ""the user likes"" been recorded in the same venue?",,Yes
+,Sonia2-CQ1,What is the connection between two musical pieces?,,Yes
+,Sonia2-CQ5,Which is the immediate previous/next musical piece?,,Yes
+,Sonia2-CQ6,Is a musical piece connected to another musical piece by common people?,,Yes
+,Ralph1-CQ3,"How do libretto and music relate, e.g. in describing an emotion?",,Yes
+,Ralph1-CQ4,"How does the presentation (text and music) of a work, e.g. an operatic aria, change over time, and depending on the artist?",,Yes
+,Ralph1-CQ5,"How have the music and libretto been influenced by the historical, e.g. social, political and cultural, environment?",,Yes
+Find answer to specific question,Carolina1-CQ1,Where was a musical composition performed?,,Yes
+,Carolina1-CQ5,"Which performers (musicians, singers) have performed a musical composition?",,Yes
+,Carolina1-CQ12,Which is the medium of performance of a musical composition?,,Yes
+,Carolina1-CQ13,Which was the first medium of performance of a musical composition?,,Yes
+,Carolina1-CQ17,Which is/are the composer(s) of a musical composition?,,Yes
+,David1-CQ1,What music was being played?,,Yes
+,David1-CQ7,Where were the places (in which they played)?,,Yes
+,David1-CQ12,Who is the composer of a piece of music?,,Yes
+,David1-CQ14,What was the country of origin of a piece of music?,,Yes
+,Keoma1-CQ2,What repertoire is traditionally performed in a specific location?,,Yes
+,Keoma1-CQ6,How many people are generally employed for the performance of these sound practices?,,Yes
+,Keoma1-CQ6,How many performers (or bell ringers?) are generally employed for the performance of these sound practices?,,Yes
+,Mark1-CQ2,Which is the country of origin of a composition?,,Yes
+,Mark2-CQ6,Which is the builder of an organ?,,Yes
+,Mark2-CQ7,Where has an organ been built?,,Yes
+,Mark2-CQ7,When has an organ been built?,,Yes
+,Mark2-CQ8,Which are the materials of an organ?,,Yes
+,Ortenz1-CQ1,Which is the role of the creator of an official source?,,Yes
+,Ortenz1-CQ11,Where was the source produced?,,Yes
+,Ortenz1-CQ12,Who produced the source?,,Yes
+,Ortenz1-CQ13,"What type of source is it? E.g. Literary text, painting",,Yes
+,Ortenz2-CQ21,Where did she perform?,,Yes
+,Patrizia1-CQ3,Are there formalized collective actors who carry out sound practices?,,Yes
+,William1-CQ2,In which countries does a song occur?,,Yes
+,William1-CQ3,Which compositions match with William's thematic focus for the exhibition?,,Yes
+,William1-CQ3,Which is the thematic focus of a composition?,,Yes
+,William1-CQ3,Which is the thematic focus of an exhibition?,,Yes
+,William1-CQ4,Which is/are the composer(s) of a composition?,,Yes
+,William1-CQ4,Which is/are the performer(s) of a composition?,,Yes
+,William1-CQ6,Under which titles is this song known? (multi-language),,Yes
+,Sonia1-CQ1,What is the musical piece that the persona selects?,,Yes
+,Sonia1-CQ5,Who is/are the composer(s)/musician(s) of the musical piece?,,Yes
+,Sonia1-CQ7,When/Where was the musical piece recorded?,,Yes
+,Ralph1-CQ1,Who is the poet (librettist) associated with a text?,,Yes
+,Ralph1-CQ2,What is the emotion represented by a portion of text (~140 categories)?,,Yes
+,Amy1-CQ3,What is left from the original organs built by XX organ builder? Where are these original components now?,,Yes
+,Amy1-CQ4,Which changes have been made to the original organs? When were these changes made? Who made the changes? To what degree are the organs (or components of organs) in their original state?,,Yes
+,Amy1-CQ5,What are the arthistorical features of the front of the organ? In which style is the organ built?,,Yes
+,Amy1-CQ6,When (and why) was the organ moved? Where was the organ placed originally?,,Yes
+,Amy1-CQ8,Which organ builders worked on whose (original organ builder’s) organs?,,Yes
+,Paul1-Q2,"What are the technical features such as pitch, windpressure, and bellow type?",,Yes
+,Paul1-Q3,What materials is the casing made of?,,Yes
+,Paul1-Q4,What are the dispositions of all the organs made by XX organ builder?,,Yes
+,Paul1-Q5,When have changes been made to the organ? What were these changes? Who made these changes?,,Yes
+,Frank1-Q2,Which organ builders worked on whose (original organ builder’s) organs?,,Yes
+,Frank1-Q3,Who built and/or renovated XX organ?,,Yes
+,Frank1-Q4,What was the disposition of the organ at a specific point in time?,,Yes
+,Frank1-Q5,Which organs have a similar disposition?,,Yes
+,Frank1-Q6,What does the organ look like?,,Yes
+,Frank1-Q7,What are the arthistorical features of the front of the organ? In which style is the organ built?,,Yes
+,Frank1-Q8,What are the decorative elements?,,Yes
+,Frank1-Q9,Which organs are built in a similar style?,,Yes
+Explore sources of content,Amy1-CQ2,Is XX fact reliable? What are the sources of XX fact?,Yes,Yes
+,Paul2-Q6,Is XX fact reliable? What are the sources of XX fact?,Yes,Yes
+,Laurent1-Q4,Is a dataset attached to resource X?,Yes,Yes
+Discover new content,Andrea1-Q4,Can I keep getting suggestions in real time?,Yes,Yes
+Discover content,Laurent1-Q2,What types of resources can I find?,Yes,Yes
+,Andrea1-Q2,What types of resources can I find?,Yes,Yes
