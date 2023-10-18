@@ -16,6 +16,7 @@ licence:
 release link: https://github.com/polifonia-project/web_portal/releases/latest
 credits: Giulia Manganelli (UNIBO), Marco Grasso (UNIBO), Marilena Daquino (UNIBO)
 related-components:
+- reuses:
   - musoW
   - clef
   - melody
