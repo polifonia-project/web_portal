@@ -10,7 +10,8 @@ keywords:
   - music heritage interfaces
   - daschboard
   - generous interfaces
-licence: CC-BY
+licence:
+- CC-BY
 release link: https://github.com/polifonia-project/web_portal/releases/latest
 credits: Giulia Manganelli (UNIBO), Marco Grasso (UNIBO), Marilena Daquino (UNIBO)
 related-components:
