@@ -5,7 +5,8 @@ description: Documents and materials relevant to the Polifonia Web portal (WP1.T
 type: Documentation
 release-date: 2022/06/20
 release-number: latest
-work-package: WP1
+work-package: 
+- WP1
 keywords:
   - music heritage interfaces
   - daschboard
